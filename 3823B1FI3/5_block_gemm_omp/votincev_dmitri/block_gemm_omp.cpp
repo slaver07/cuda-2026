@@ -1,4 +1,4 @@
-#include "naive_gemm_omp.h"
+#include "block_gemm_omp.h"
 #include "omp.h"
 #include <vector>
 
