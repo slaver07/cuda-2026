@@ -524,6 +524,7 @@ std::vector<float> GeluOCL(const std::vector<float>& input, int platform) {
 |3823B1FI3|zavyalov_alexey|0.2321|2|
 |**REF**|**REF**|**0.5797**|**-**|
 |3823B1FI3|gutyansky_alexey|TEST FAILED|-|
+|3823B1FI3|papulina_yuliya|BUILD FAILED|-|
 
 ## 5_block_gemm_omp (1024 elements)
 |Group|Name|Result|Rank|
@@ -559,6 +560,7 @@ std::vector<float> GeluOCL(const std::vector<float>& input, int platform) {
 |3823B1FI3|kurpiakov_aleksei|0.1293|10|
 |3823B1FI3|romanov_artem|0.1384|5|
 |3823B1FI3|zavyalov_alexey|0.1386|9|
+|3823B1FI3|papulina_yuliya|0.1416|12|
 |3823B1FI3|votincev_dmitri|0.1445|4|
 |**FAST**|**FAST**|**0.1469**|**-**|
 |**REF**|**REF**|**0.7454**|**-**|
@@ -625,11 +627,11 @@ std::vector<float> GeluOCL(const std::vector<float>& input, int platform) {
 |3823B1FI3|kutergin_valentin|7/9|384|
 |3823B1FI3|levonychev_ivan|**9/9**|**477**|
 |3823B1FI3|lukin_ivan|**9/9**|**459**|
-|3823B1FI3|papulina_yuliya|4/9|187|
+|3823B1FI3|papulina_yuliya|5/9|230|
 |3823B1FI3|potashnik_maxim|2/9|97|
 |3823B1FI3|pylaeva_svetlana|**9/9**|**462**|
 |3823B1FI3|romanov_artem|**9/9**|**480**|
-|3823B1FI3|votincev_dmitri|**9/9**|**477**|
+|3823B1FI3|votincev_dmitri|**9/9**|**476**|
 |3823B1FI3|zavyalov_alexey|**9/9**|**465**|
 
 Passed: 9
