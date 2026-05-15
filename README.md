@@ -578,6 +578,7 @@ std::vector<float> GeluOCL(const std::vector<float>& input, int platform) {
 |Group|Name|Result|Rank|
 |-----|----|------|----|
 |3823B1FI3|kichanova_ksenia|0.0315|6|
+|3823B1FI3|kutergin_valentin|0.0317|12|
 |3823B1FI3|gutyansky_alexey|0.0322|10|
 |3823B1FI3|pylaeva_svetlana|0.0333|8|
 |3823B1FI3|levonychev_ivan|0.0368|1|
@@ -590,7 +591,6 @@ std::vector<float> GeluOCL(const std::vector<float>& input, int platform) {
 |**FAST**|**FAST**|**0.0484**|**-**|
 |**REF**|**REF**|**0.0534**|**-**|
 |3823B1FI3|kutuzov_ivan|0.0971|11|
-|3823B1FI3|kutergin_valentin|TEST FAILED|-|
 
 ## 8_fft_cufft (131072 elements)
 |Group|Name|Result|Rank|
@@ -614,6 +614,7 @@ std::vector<float> GeluOCL(const std::vector<float>& input, int platform) {
 |-----|----|------|----|
 |**FAST**|**FAST**|**0.1449**|**-**|
 |3823B1FI3|kichanova_ksenia|0.1514|3|
+|3823B1FI3|kutergin_valentin|0.1520|10|
 |3823B1FI3|pylaeva_svetlana|0.1533|6|
 |3823B1FI3|romanov_artem|0.1994|9|
 |3823B1FI3|zavyalov_alexey|0.2043|5|
@@ -629,28 +630,28 @@ std::vector<float> GeluOCL(const std::vector<float>& input, int platform) {
 ## 3823B1FI3
 |Group|Name|Passed|Score|
 |-----|----|------|-----|
-|3823B1FI3|baldin_andrew|**9/9**|**491**|
+|3823B1FI3|baldin_andrew|**9/9**|**489**|
 |3823B1FI3|chacshin_vladimir|3/9|133|
 |3823B1FI3|frolova_sofya|6/9|269|
 |3823B1FI3|gonozov_leonid|0/9|0|
-|3823B1FI3|gutyansky_alexey|6/9|302|
+|3823B1FI3|gutyansky_alexey|6/9|301|
 |3823B1FI3|kichanova_ksenia|**9/9**|**506**|
-|3823B1FI3|kurpiakov_aleksei|**9/9**|**465**|
+|3823B1FI3|kurpiakov_aleksei|**9/9**|**463**|
 |3823B1FI3|kurpiakov_alexei|2/9|102|
-|3823B1FI3|kutergin_valentin|7/9|380|
-|3823B1FI3|kutuzov_ivan|8/9|352|
-|3823B1FI3|levonychev_ivan|**9/9**|**472**|
-|3823B1FI3|lukin_ivan|**9/9**|**454**|
+|3823B1FI3|kutergin_valentin|**9/9**|**486**|
+|3823B1FI3|kutuzov_ivan|8/9|351|
+|3823B1FI3|levonychev_ivan|**9/9**|**470**|
+|3823B1FI3|lukin_ivan|**9/9**|**452**|
 |3823B1FI3|papulina_yuliya|5/9|225|
 |3823B1FI3|potashnik_maxim|3/9|144|
-|3823B1FI3|pylaeva_svetlana|**9/9**|**457**|
-|3823B1FI3|romanov_artem|**9/9**|**474**|
-|3823B1FI3|votincev_dmitri|**9/9**|**471**|
-|3823B1FI3|zavyalov_alexey|**9/9**|**459**|
+|3823B1FI3|pylaeva_svetlana|**9/9**|**455**|
+|3823B1FI3|romanov_artem|**9/9**|**472**|
+|3823B1FI3|votincev_dmitri|**9/9**|**469**|
+|3823B1FI3|zavyalov_alexey|**9/9**|**457**|
 
-Passed: 9
+Passed: 10
 
-**Total Passed: 9**
+**Total Passed: 10**
 
 ---
 *Maximum Score: 576 (64 per task)*
